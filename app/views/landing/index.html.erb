@@ -1,0 +1,53 @@
+
+<style>
+  .titulo{
+    color: #696969;
+    font-family: monospace;;
+    font-weight: bold;
+    font-size: 75px;
+    text-decoration: underline;;
+  }
+  .background{
+    background-color: #C0C0C0;
+  }
+
+  .p{
+    font-size: 45px;
+  }
+
+  .tituloP{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .tachado{
+    text-decoration: line-through;
+  }
+
+
+</style>
+<div class="container-fluid">
+  <html>
+    <body class="background text-center">
+      <h1 class="titulo"> Gestor de tareas </h1>
+      <p class="p">Organiza tu tiempo</p>
+      <input type="text" class="form control" placeholder="Tarea a hacer"></input>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <div>
+        <label><input type="radio" name="urgente"> Urgente</label>
+      </div>
+      <p class="tituloP">Cosas para hacer:</p>
+        <p><input type="checkbox"> Estudiar</input></p>
+        <p><input type="checkbox"> Comprar</input></p>
+        <p><input type="checkbox"> Cocinar</input></p>
+
+      <p class="tituloP"> Hecho: </p>
+        <p class="tachado">Ir al Ikea</p>
+        <p class="tachado">Comprar la pizarra</p>
+
+    </body>
+
+  </html>
+
+</div>
